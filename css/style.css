@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+.navigasi {
+    background-color: #BFD8AF;
+    width: 100%;
+    height: 60px;
+    color: black;
+    position: fixed;
+}
+.logo {
+    float: left;
+    padding: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.menu {
+    margin-left: 1000px;
+    padding-top: 20px;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover {
+    color:aliceblue;
+    font-style: italic;
+}
+.banner {
+    background-color: #99BC85;
+    height: 900px;
+    text-align: center;
+    color: black;
+}
+.banner img {
+    border-radius:140px ;
+    height: 130px;
+    width: 125px;
+    border: 6px solid white;
+    margin-top: 200px;
+}
+.banner h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+}
+
+.kotak-pendidikan {
+       text-align: center;
+       color: #424769;
+       margin-top: 50px;
+       align-content: center;
+      
+}
+.kiri img {
+    height: 100px;
+    border-radius: 50px;
+}
+.tengah img {
+    height: 100px;
+    border-radius: 50px;
+}
+.kanan img {
+    height: 100px;
+    border-radius: 50px;
+}
+
+.kiri, .tengah, .kanan {
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    padding: 30px 30px;
+    padding-right: 10px;
+    margin: 80px 30px 30px 90px;
+    float: left;
+
+}
+.kiri:hover, .tengah:hover, .kanan:hover {
+
+    
+}
+
+.kontak img {
+    height:150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height:30px;
+    color:white;
+    padding: 5px;
+    margin: 50px auto 0px;
+}
+   
+
+
